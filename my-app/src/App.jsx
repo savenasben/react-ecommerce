@@ -5,6 +5,7 @@ import "./App.css"
 import Header from './Header'
 import Footer from './Footer'
 import NavBar from "./NavBar"
+import Price from "./Price"
 
 function App(){
    return(
@@ -12,6 +13,7 @@ function App(){
       
        <Header />
        <NavBar />
+       <Price />
        <div className="container">
        {Products.map((Product) => (
         <ProductCard key={Product.id}{...Product}/>
