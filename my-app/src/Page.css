@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(138, 155, 155);
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    font-weight: 900;
+}
+
+.counter{
+    color: red;
+}
+
